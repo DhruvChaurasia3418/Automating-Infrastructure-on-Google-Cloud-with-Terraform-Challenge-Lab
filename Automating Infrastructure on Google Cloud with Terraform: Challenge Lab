@@ -81,7 +81,7 @@ Go to modules/instances/instances.tf then paste following content
 resource "google_compute_instance" "tf-instance-1" {
   name         = "tf-instance-1"
   machine_type = "n1-standard-1"
-  zone         = <****Add_Zone****>
+  zone         = "<****Add_Zone****>"
 
   boot_disk {
     initialize_params {
@@ -101,7 +101,7 @@ resource "google_compute_instance" "tf-instance-1" {
 resource "google_compute_instance" "tf-instance-2" {
   name         = "tf-instance-2"
   machine_type = "n1-standard-1"
-  zone         = <****Add_Zone****>
+  zone         =  "<****Add_Zone****>"
 
   boot_disk {
     initialize_params {
