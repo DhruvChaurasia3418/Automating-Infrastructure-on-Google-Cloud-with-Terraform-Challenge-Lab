@@ -191,7 +191,7 @@ Add following to instance.tf
 resource "google_compute_instance" "****Instance Name****" {
   name         = "****Instance Name****"
   machine_type = "n1-standard-2"
-  zone         = <****Add_Zone****>
+  zone         = "<****Add_Zone****>"
 
   boot_disk {
     initialize_params {
